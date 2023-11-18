@@ -4,12 +4,6 @@ Authors: Ben Pham (https://github.com/BennyZaBoi), Derek Wu (https://github.com/
 
 ## Project Description
 
-* Put stuff here
-
-* Put stuff here
-
-* Put Stuff here
-
-* Put Stuff Here
+* This is a Cutie Hack Project that basically gets all of the currency in the world and converts the value with Today's (November 18, 2023) rate.
 
 
