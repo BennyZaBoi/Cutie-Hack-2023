@@ -6,11 +6,11 @@
 using namespace std;
 
 void welcomeScreenDisplay() {
-    cout << "=====================================" << endl;
+    cout << "----------------------------------------------------" << endl;
     cout << " Welcome to UCR Currency Exchange from USD To Any! " << endl;
-    cout << "=====================================" << endl << endl;
+    cout << "----------------------------------------------------" << endl << endl;
     cout << "Only use currency codes please Examples: (USD, EUR)" << endl;
-    cout << "Make sure that it is all capitals when doing so!" << endl;
+    cout << "It can take in lowercase also!" << endl;
     cout << "1. Convert from USD to another? " << endl;
     cout << "2. Exit The Program!" << endl << endl;
 }
@@ -72,8 +72,8 @@ int main() {
     else if ( ISOinput =="FKP" ){
     Exchange = inputUSD * 0.80;
   }
-    else if ( ISOinput =="FOK") {
-    Exchange = inputUSD *0.0;    // couldn't find
+    else if ( ISOinput =="DDK") {
+    Exchange = inputUSD * 6.83;    // couldn't find
   }
     else if ( ISOinput =="GBP") {
     Exchange = inputUSD * 0.80;
