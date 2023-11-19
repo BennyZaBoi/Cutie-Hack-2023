@@ -350,6 +350,9 @@ int main() {
 
 
          }
+            else if (ISOinput=="PLN") {
+                Exchange = inputUSD * 0.25;
+            }
            else if (ISOinput=="WST") {
            Exchange = inputUSD * 2.8;
 
