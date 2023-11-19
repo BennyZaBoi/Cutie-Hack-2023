@@ -259,7 +259,7 @@ int main() {
          else if (ISOinput=="DJF") {
             Exchange = inputUSD * 177.18  ;
         }
-         else if (ISOinput=="DKK") {
+         else if (ISOinput=="DKK" || ISOinput == "FOK") {
             Exchange = inputUSD * 6.83  ;
         }
           else if (ISOinput=="DOP") {
