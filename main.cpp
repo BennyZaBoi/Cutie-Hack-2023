@@ -24,7 +24,7 @@ int getValidChoice() {
         cin >> input;
 
         if (input.length() == 1 && isdigit(input[0])) {
-            choice = input[0] - '0'; // Convert char to int
+            choice = input[0] - '0'; 
             if (choice == 1 || choice == 2) {
                 break;
             }
@@ -76,7 +76,7 @@ int main() {
     Exchange = inputUSD * 0.80;
   }
     else if ( ISOinput =="DDK") {
-    Exchange = inputUSD * 6.83;    // couldn't find
+    Exchange = inputUSD * 6.83;    
   }
     else if ( ISOinput =="GBP") {
     Exchange = inputUSD * 0.80;
@@ -85,7 +85,7 @@ int main() {
     Exchange = inputUSD * 2.70;
   }
     else if ( ISOinput =="GGP") {
-    Exchange = inputUSD * 0.80;  //verify again
+    Exchange = inputUSD * 0.80;  
   }
     else if ( ISOinput == "GHS"){
     Exchange= inputUSD * 11.90;
@@ -98,7 +98,7 @@ int main() {
     Exchange = inputUSD * 67.25;
   }
     else if ( ISOinput == "GNF"){
-    Exchange = inputUSD * 8550.76;  //bigger currency
+    Exchange = inputUSD * 8550.76;  
   }
     else if ( ISOinput == "GTQ"){
     Exchange = inputUSD * 7.79;
@@ -122,7 +122,7 @@ int main() {
     Exchange = inputUSD * 347.38;
   }
     else if (ISOinput == "IDR"){
-    Exchange = inputUSD * 15,424.30;  //b.c
+    Exchange = inputUSD * 15,424.30;  
   }
     else if (ISOinput == "ILS"){
     Exchange = inputUSD * 3.72;
@@ -143,7 +143,7 @@ int main() {
     Exchange = inputUSD * 140.06;
   }
     else if (ISOinput == "JEP"){
-    Exchange = inputUSD * 0.84; //flunctuates
+    Exchange = inputUSD * 0.84; 
   }
     else if (ISOinput == "JMD"){
     Exchange = inputUSD * 155.07;
@@ -182,10 +182,10 @@ int main() {
     Exchange = inputUSD * 461.73;
   }
     else if (ISOinput == "LAK"){
-    Exchange = inputUSD * 20635.56; //b.c
+    Exchange = inputUSD * 20635.56; 
   }
     else if (ISOinput == "LBP"){
-    Exchange = inputUSD * 14966.73;  //b.c
+    Exchange = inputUSD * 14966.73;  
   }
     else if (ISOinput == "LKR"){
     Exchange = inputUSD * 326.43;
@@ -384,7 +384,7 @@ int main() {
           }
            else if (ISOinput == "ZWL") {
             Exchange =inputUSD* 322;
-          } else if(ISOinput == "AED"){ // UAE
+          } else if(ISOinput == "AED"){ 
     Exchange = inputUSD * 3.67; 
  }
  else if(ISOinput == "AFN"){
