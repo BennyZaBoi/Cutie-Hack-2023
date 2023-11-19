@@ -350,9 +350,6 @@ int main() {
 
 
          }
-            else if (ISOinput=="PLN") {
-                Exchange = inputUSD * 0.25;
-            }
            else if (ISOinput=="WST") {
            Exchange = inputUSD * 2.8;
 
@@ -384,7 +381,287 @@ int main() {
           }
            else if (ISOinput == "ZMWL") {
             Exchange =inputUSD* 322;
-          }
+          } else if(ISOinput == "AED"){ // UAE
+    Exchange = inputUSD * 3.67; 
+ }
+ else if(ISOinput == "AFN"){
+    Exchange = inputUSD * 68.72;
+} 
+else if(ISOinput == "ALL"){
+    Exchange = inputUSD * 94.20;
+} 
+else if(ISOinput == "AMD"){
+    Exchange = inputUSD * 400.75;
+} 
+else if(ISOinput == "ANG"){
+    Exchange = inputUSD * 1.79;
+} 
+else if(ISOinput == "AOA"){
+    Exchange = inputUSD * 827.72;
+} 
+else if(ISOinput == "ARS"){
+    Exchange = inputUSD * 351.77;
+} 
+else if(ISOinput == "AUD"){
+    Exchange = inputUSD * 1.54;
+} 
+else if(ISOinput == "AWG"){
+    Exchange = inputUSD * 1.80;
+} 
+else if(ISOinput == "AZN"){
+    Exchange = inputUSD * 1.70;
+} 
+else if(ISOinput == "BAM"){
+    Exchange = inputUSD * 1.79;
+} 
+else if(ISOinput == "BBD"){
+    Exchange = inputUSD * 2.01;
+} 
+else if(ISOinput == "BDT"){
+    Exchange = inputUSD * 110.21;
+} 
+else if(ISOinput == "BGN"){
+    Exchange = inputUSD * 1.80;
+} 
+else if(ISOinput == "BHD"){
+    Exchange = inputUSD * 0.38;
+} 
+else if(ISOinput == "BIF"){
+    Exchange = inputUSD * 2828.34;
+} 
+else if(ISOinput == "BMD"){
+    Exchange = inputUSD * 1.00;
+} 
+else if(ISOinput == "BND"){
+    Exchange = inputUSD * 1.34;
+} 
+else if(ISOinput == "BOB"){
+    Exchange = inputUSD * 6.88;
+} 
+// end Jack part A
+else if(ISOinput == "HRK"){
+    Exchange = inputUSD * 7.04215;
+} 
+else if(ISOinput == "HNL"){
+    Exchange = inputUSD * 24.58;
+} 
+else if(ISOinput == "HTG"){
+    Exchange = inputUSD * 132.05;
+} 
+else if(ISOinput == "HUF"){
+    Exchange = inputUSD * 347.38;
+} 
+else if(ISOinput == "IDR"){
+    Exchange = inputUSD * 15424.30;
+} 
+else if(ISOinput == "ILS"){
+    Exchange = inputUSD * 3.72;
+} 
+else if(ISOinput == "IMP"){
+    Exchange = inputUSD * 0.085642;
+}
+else if(ISOinput == "INR"){
+    Exchange = inputUSD * 83.29;
+}
+else if(ISOinput == "IQD"){
+    Exchange = inputUSD * 1303.63;
+}
+else if(ISOinput == "IRR"){
+    Exchange = inputUSD * 42262.50;
+}
+else if(ISOinput == "ISK"){
+    Exchange = inputUSD * 140.06;
+}
+else if(ISOinput == "JEP"){
+    Exchange = inputUSD * 0.841;
+}
+else if(ISOinput == "JMD"){
+    Exchange = inputUSD * 155.07;
+}
+else if(ISOinput == "JOD"){
+    Exchange = inputUSD * 0.71;
+}
+else if(ISOinput == "JPY"){
+    Exchange = inputUSD * 149.54;
+}
+else if(ISOinput == "KES"){
+    Exchange = inputUSD * 151.55;
+}
+else if(ISOinput == "KGS"){
+    Exchange = inputUSD * 89.13;
+}
+else if(ISOinput == "KHR"){
+    Exchange = inputUSD * 4100.00;
+}
+else if(ISOinput == "KID"){
+    Exchange = inputUSD * 1.54;
+}
+else if(ISOinput == "KMF"){
+    Exchange = inputUSD * 453.62;
+}
+else if(ISOinput == "KRW"){
+    Exchange = inputUSD * 1296.38;
+}
+else if(ISOinput == "KWD"){
+    Exchange = inputUSD * 0.31;
+}
+else if(ISOinput == "KYD"){
+    Exchange = inputUSD * 0.83;
+}
+else if(ISOinput == "KZT"){
+    Exchange = inputUSD * 461.73;
+}
+else if(ISOinput == "LAK"){
+    Exchange = inputUSD * 20635.56;
+}
+else if(ISOinput == "LBP"){
+    Exchange = inputUSD * 14956.73;
+}
+else if(ISOinput == "LKR"){
+    Exchange = inputUSD * 326.43;
+}
+else if(ISOinput == "LRD"){
+    Exchange = inputUSD * 187.85;
+}
+else if(ISOinput == "LSL"){
+    Exchange = inputUSD * 18.37;
+}
+else if(ISOinput == "LYD"){
+    Exchange = inputUSD * 4.82;
+}
+else if(ISOinput == "MAD"){
+    Exchange = inputUSD * 10.09;
+}
+else if(ISOinput == "MDL"){
+    Exchange = inputUSD * 17.75;
+}
+else if(ISOinput == "MGA"){
+    Exchange = inputUSD * 4507.53;
+}
+else if(ISOinput == "MKD"){
+    Exchange = inputUSD * 56.43;
+}
+else if(ISOinput == "MMK"){
+    Exchange = inputUSD * 2089.75;
+}
+else if(ISOinput == "MNT"){
+    Exchange = inputUSD * 3450.0;
+}
+else if(ISOinput == "MOP"){
+    Exchange = inputUSD * 7.99;
+}
+else if(ISOinput == "MRU"){
+    Exchange = inputUSD * 39.75;
+}
+else if(ISOinput == "MUR"){
+    Exchange = inputUSD * 44.16 ;
+}
+else if(ISOinput == "MVR"){
+    Exchange = inputUSD * 15.45 ;
+}
+else if(ISOinput == "MWK"){
+    Exchange = inputUSD * 1675.17;
+}
+else if(ISOinput == "MXN"){
+    Exchange = inputUSD * 17.23;
+}
+else if(ISOinput == "MYR"){
+    Exchange = inputUSD * 4.67 ;
+}
+else if(ISOinput == "MZN"){
+    Exchange = inputUSD * 63.25;
+}
+else if(ISOinput == "NAD"){
+    Exchange = inputUSD * 18.37;
+}
+else if(ISOinput == "NGN"){
+    Exchange = inputUSD * 840.04 ;
+}
+else if(ISOinput == "NIO"){
+    Exchange = inputUSD * 36.42 ;
+}
+else if(ISOinput == "NOK"){
+    Exchange = inputUSD * 10.79;
+}
+else if(ISOinput == "NPR"){
+    Exchange = inputUSD * 132.57;
+}
+else if(ISOinput == "NZD"){
+    Exchange = inputUSD * 1.67;
+}
+else if(ISOinput == "OMR"){
+    Exchange = inputUSD * 0.38;
+}
+else if(ISOinput == "PAB"){
+    Exchange = inputUSD * 1.00;
+}
+else if(ISOinput == "PEN"){
+    Exchange = inputUSD * 3.85;
+}
+else if(ISOinput == "PGK"){
+    Exchange = inputUSD * 3.76;
+}
+else if(ISOinput == "PHP"){
+    Exchange = inputUSD * 55.40;
+}
+else if(ISOinput == "PLN"){
+    Exchange = inputUSD * 4.02;
+}
+else if(ISOinput == "PYG"){
+    Exchange = inputUSD * 7395.03;
+}
+else if(ISOinput == "QAR"){
+    Exchange = inputUSD *  3.64;
+}
+else if(ISOinput == "RON"){
+    Exchange = inputUSD * 4.57;
+}
+else if(ISOinput == "RSD"){
+    Exchange = inputUSD * 107.37;
+}
+else if(ISOinput == "RUB"){
+    Exchange = inputUSD * 89.35;
+}
+else if(ISOinput == "RWF"){
+    Exchange = inputUSD * 1227.35;
+}
+else if(ISOinput == "SAR"){
+    Exchange = inputUSD * 3.75;
+}
+else if(ISOinput == "SBD"){
+    Exchange = inputUSD * 8.42;
+}
+else if(ISOinput == "SCR"){
+    Exchange = inputUSD * 13.12 ;
+}
+else if(ISOinput == "SDG"){
+    Exchange = inputUSD * 601.00;
+}
+else if(ISOinput == "SEK"){
+    Exchange = inputUSD * 10.59;
+}
+else if(ISOinput == "SGD"){
+    Exchange = inputUSD * 1.34 ;
+}
+else if(ISOinput == "SHP"){
+    Exchange = inputUSD * 0.802762;
+}
+else if(ISOinput == "SLL"){
+    Exchange = inputUSD * 19750.00;
+}
+else if(ISOinput == "SOS"){
+    Exchange = inputUSD * 571.00;
+}
+else if(ISOinput == "SRD"){
+    Exchange = inputUSD * 38.14;
+}
+else if(ISOinput == "SSP"){
+    Exchange = inputUSD * 130.26;
+}
+else if(ISOinput == "STN"){
+    Exchange = inputUSD * 22281.80 ;
+}
+            
           else if (ISOinput == "UCR") {
             Exchange = inputUSD * 69;
             cout << "Your student loans is this amount: " << Exchange << "$" << endl;
