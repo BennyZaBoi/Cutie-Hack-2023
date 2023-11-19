@@ -382,13 +382,17 @@ int main() {
            else if (ISOinput == "ZMWL") {
             Exchange =inputUSD* 322;
           }
+          else if (ISOinput == "UCR") {
+            Exchange = inputUSD * 69;
+            cout << "Your student loans is this amount: " << Exchange << "$" << endl;
+          }
         
         else {
                 cout << "Invalid Target currency. Conversion not supported." << endl;
                 continue;  
             }
 
-        cout << inputUSD << " " << "USD" << " is equivalent to ";
+            cout << inputUSD << " " << "USD" << " is equivalent to ";
             cout << " " << Exchange << " " << ISOinput << endl;
         }   else if (choice == 2) {
             cout << "Exiting the Currency Exchange App. Goodbye!" << endl;
