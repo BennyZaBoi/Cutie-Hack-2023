@@ -54,11 +54,14 @@ int main() {
             cout << "Enter the amount: ";
             while (!(cin >> inputUSD)) {
                 cout << "Invalid Input! Please enter a valid number." << endl;
+                cin.clear();
+                string invalidInput;
+                getline(cin, invalidInput);
                 cout << "Enter the amount: ";
             }
     
-    for (char &c : ISOinput) {
-    c = toupper(c);
+ for (size_t i = 0; i < ISOinput.length(); ++i) {
+    ISOinput[i] = toupper(ISOinput[i]);
 }
     
     long double Exchange;
