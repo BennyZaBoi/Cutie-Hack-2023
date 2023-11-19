@@ -379,7 +379,7 @@ int main() {
            else if (ISOinput == "ZMW") {
             Exchange =inputUSD* 23.11;
           }
-           else if (ISOinput == "ZMWL") {
+           else if (ISOinput == "ZWL") {
             Exchange =inputUSD* 322;
           } else if(ISOinput == "AED"){ // UAE
     Exchange = inputUSD * 3.67; 
